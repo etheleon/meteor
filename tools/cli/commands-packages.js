@@ -1200,7 +1200,7 @@ main.registerCommand({
       Console.command("'meteor update'"), "to try to update those",
       "packages to their latest versions. If your packages cannot be",
       "updated further, try typing",
-      Console.command("`meteor add <package>@<newVersion>`"),
+      Console.command("`meteor add <package>@=<newVersion>`"),
       "to see more information.",
       Console.options({ bulletPoint: "* " }));
   }
